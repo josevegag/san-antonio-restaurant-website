@@ -1,6 +1,7 @@
 # Official content review
 
 Checked 2026-09-27. The client's official website is the authority for business information.
+The legacy Wix pages below were consulted before the production migration on 2026-09-27. Those URLs may now return 404; they are retained here as provenance for the published facts.
 
 ## Verified sources
 
