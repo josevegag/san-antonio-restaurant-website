@@ -1,35 +1,41 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { useState } from "react";
+import { alternateHref, localizedHref, navigation, tr, type Locale } from "@/data/i18n";
 
-const links = [
-  ["Our Story", "/about"], ["Menu", "/menu"], ["Gallery", "/gallery"],
-  ["Locations", "/locations"], ["Catering", "/catering"],
-  ["Reservations", "/reservations"], ["Contact", "/contact"],
-] as const;
+function LanguageSwitch({ locale, pathname, onNavigate }: { locale: Locale; pathname: string; onNavigate?: () => void }) {
+  return <div className="language-switch" aria-label={tr(locale, "Select language", "Seleccionar idioma")}>
+    <Link href={alternateHref(pathname, "en")} hrefLang="en" lang="en" aria-current={locale === "en" ? "page" : undefined} onClick={onNavigate}>EN</Link>
+    <span aria-hidden="true">/</span>
+    <Link href={alternateHref(pathname, "es")} hrefLang="es" lang="es" aria-current={locale === "es" ? "page" : undefined} onClick={onNavigate}>ES</Link>
+  </div>;
+}
 
-export function SiteHeader() {
+export function SiteHeader({ locale }: { locale: Locale }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const home = localizedHref(locale);
   return <>
-    <div className="announcement">THREE NEIGHBORHOOD LOCATIONS · PASSAIC & CLIFTON, NEW JERSEY <span aria-hidden="true">✳</span> FRESHLY MADE, ALWAYS SHARED</div>
+    <div className="announcement">{tr(locale, "THREE NEIGHBORHOOD LOCATIONS · PASSAIC & CLIFTON, NEW JERSEY", "TRES SUCURSALES · PASSAIC Y CLIFTON, NUEVA JERSEY")} <span aria-hidden="true">✳</span> {tr(locale, "FRESHLY MADE, ALWAYS SHARED", "RECIÉN HECHO, SIEMPRE PARA COMPARTIR")}</div>
     <header className="site-header">
       <div className="shell nav-inner">
-        <Link href="/" className="wordmark" aria-label="San Antonio Mexican Restaurant home" onClick={() => setOpen(false)}>
-          <span className="wordmark-top">RESTAURANTE</span><span className="wordmark-main">San Antonio<span className="wordmark-sun">✳</span></span><span className="wordmark-bottom">MEXICAN RESTAURANT</span>
+        <Link href={home} className="brand-logo" aria-label={tr(locale, "San Antonio Mexican Restaurant home", "Inicio de San Antonio Mexican Restaurant")} onClick={() => setOpen(false)}>
+          <Image src="/images/brand/logo-san-antonio.png" alt="San Antonio Mexican Restaurant" width={258} height={195} priority />
         </Link>
-        <nav className="desktop-nav" aria-label="Main navigation">
-          {links.map(([label, href]) => <Link key={href} href={href} className={pathname === href || pathname?.startsWith(`${href}/`) ? "active" : ""}>{label}</Link>)}
+        <nav className="desktop-nav" aria-label={tr(locale, "Main navigation", "Navegación principal")}>
+          {navigation.map(item => { const href = localizedHref(locale, item.path); return <Link key={item.path} href={href} className={pathname === href || pathname?.startsWith(`${href}/`) ? "active" : ""}>{item[locale]}</Link>; })}
         </nav>
-        <Link href="/order-online" className="nav-order">Order online <ArrowUpRight size={16} aria-hidden="true" /></Link>
-        <button className="mobile-toggle" type="button" aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
+        <div className="header-actions"><LanguageSwitch locale={locale} pathname={pathname}/><Link href={localizedHref(locale, "/order-online")} className="nav-order">{tr(locale, "Order online", "Ordenar en línea")} <ArrowUpRight size={16} aria-hidden="true" /></Link></div>
+        <button className="mobile-toggle" type="button" aria-label={tr(locale, open ? "Close menu" : "Open menu", open ? "Cerrar menú" : "Abrir menú")} aria-expanded={open} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
       </div>
-      {open && <nav className="mobile-nav" aria-label="Mobile navigation">
-        {links.map(([label, href]) => <Link key={href} href={href} onClick={() => setOpen(false)}>{label}</Link>)}
-        <Link href="/order-online" onClick={() => setOpen(false)}>Order online ↗</Link>
+      {open && <nav className="mobile-nav" aria-label={tr(locale, "Mobile navigation", "Navegación móvil")}>
+        <div className="mobile-nav-top"><Image src="/images/brand/logo-san-antonio.png" alt="San Antonio Mexican Restaurant" width={258} height={195}/><LanguageSwitch locale={locale} pathname={pathname} onNavigate={() => setOpen(false)}/></div>
+        {navigation.map(item => <Link key={item.path} href={localizedHref(locale, item.path)} onClick={() => setOpen(false)}>{item[locale]}</Link>)}
+        <Link href={localizedHref(locale, "/order-online")} onClick={() => setOpen(false)}>{tr(locale, "Order online", "Ordenar en línea")} ↗</Link>
       </nav>}
     </header>
   </>;

@@ -45,3 +45,33 @@ export const menuItems: MenuItem[] = [
 ];
 
 export const menuCategories = ["All", "Tacos", "Breakfast", "Plates", "Antojitos", "Seafood", "Soups", "Desserts"];
+
+export const menuDescriptionsEs: Record<string, string> = {
+  "tacos-suadero": "Uno de los tacos favoritos de San Antonio.",
+  "tacos-rancheros": "Bistec preparado al estilo ranchero.",
+  "tacos-lengua": "Tacos tradicionales de lengua.",
+  "tacos-dorados": "Tacos crujientes rellenos de queso.",
+  "huevos-mexicana": "Un clásico del desayuno mexicano.",
+  "huevos-chorizo": "Huevos con chorizo.",
+  "huevos-nopales": "Huevos con nopales.",
+  "enchiladas-suizas": "Un platillo de enchiladas muy querido.",
+  "enchiladas-mole": "Enchiladas con mole.",
+  "bistec-encebollado": "Bistec con cebolla.",
+  "bistec-nopales": "Bistec con nopales y rajas.",
+  "fajitas-mixtas": "Fajitas mixtas servidas calientes.",
+  "parrillada": "Parrillada mixta al estilo San Antonio.",
+  "molcajete": "Un abundante molcajete para compartir.",
+  "alambre": "Uno de los favoritos del menú.",
+  "huarache-cecina": "Huarache con cecina.",
+  "huarache-sencillo": "Un huarache tradicional.",
+  "picaditas-pastor": "Picaditas con carne al pastor.",
+  "quesadilla-huitlacoche": "Quesadilla de huitlacoche.",
+  "quesadilla-pollo": "Quesadilla de pollo.",
+  "sopes-bistec": "Sopes con bistec.",
+  "tlacoyos-cecina": "Tlacoyos con cecina.",
+  "camarones-diabla": "Camarones en salsa picante a la diabla.",
+  "camarones-ajillo": "Camarones al ajillo.",
+  "pozole": "Un plato tradicional de pozole.",
+  "chocoflan": "Un dulce final para la comida.",
+  "flan": "Flan clásico.",
+};

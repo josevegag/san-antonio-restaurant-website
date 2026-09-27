@@ -7,6 +7,8 @@ Independent Next.js website for San Antonio Mexican Restaurant's three New Jerse
 - Next.js 16, App Router, TypeScript, Tailwind CSS 4
 - Static restaurant, menu, location and gallery data in `src/data`
 - Original client photographs optimized as WebP in `public/images/menu`
+- English routes at `/` and Spanish routes at `/es`, with language-specific metadata and sitemap entries
+- Official transparent logo in `public/images/brand/logo-san-antonio.png`; the provided JPG is archived in `assets/source`
 - No account, ordering, reservation or payment implementation. Ordering links open the restaurant's existing provider.
 
 ## Run locally
@@ -16,6 +18,7 @@ npm install
 npm run dev
 npm run build
 npm run lint
+npm run typecheck
 ```
 
 ## Content model
@@ -24,6 +27,7 @@ npm run lint
 - `src/data/menu.ts`: typed products, description, category, specialty flag, photo ID and prices keyed by location slug. A missing price displays “See live menu.” The curated menu intentionally links to the provider for the complete, current menu.
 - `src/data/photos.json`: generated photo metadata. The gallery filters by category, loads 18 images at a time, and uses lazy loaded Next.js images plus a keyboard accessible lightbox.
 - `src/data/media.ts`: optional hero and promotional video paths. Add client videos to `public/videos`, then set the paths. The hero keeps a static poster and hides video on mobile or reduced motion.
+- `src/data/i18n.ts` and `src/data/sections.ts`: bilingual navigation, category labels and page intros. Shared page components receive a locale while branch facts and prices remain centralized.
 
 To regenerate images from the client source folder:
 
