@@ -1,7 +1,7 @@
 # Official content review
 
 Checked 2026-09-27. The client's official website is the authority for business information.
-The legacy Wix pages below were consulted before the production migration on 2026-09-27. Those URLs may now return 404; they are retained here as provenance for the published facts.
+The legacy Wix pages below were consulted before the production migration on 2026-09-27. Their old URLs now redirect to equivalent pages on this site; the former Wix content is no longer available at those addresses. These links record where the published facts were originally checked.
 
 ## Verified sources
 
