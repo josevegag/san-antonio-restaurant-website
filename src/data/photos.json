@@ -1,0 +1,650 @@
+[
+  {
+    "id": "appetizers-chips",
+    "title": "Chips",
+    "category": "APPETIZERS",
+    "src": "/images/menu/appetizers-chips.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "appetizers-large-guacamole",
+    "title": "Large Guacamole",
+    "category": "APPETIZERS",
+    "src": "/images/menu/appetizers-large-guacamole.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "appetizers-nachos-con-frijoles-y-queso",
+    "title": "Nachos Con Frijoles Y Queso",
+    "category": "APPETIZERS",
+    "src": "/images/menu/appetizers-nachos-con-frijoles-y-queso.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "appetizers-quesabirria",
+    "title": "Quesabirria",
+    "category": "APPETIZERS",
+    "src": "/images/menu/appetizers-quesabirria.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "appetizers-small-guacamole",
+    "title": "Small Guacamole",
+    "category": "APPETIZERS",
+    "src": "/images/menu/appetizers-small-guacamole.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "bakery-pan-mexicano-arroz-con-leche-y-champurrado",
+    "title": "Pan Mexicano - Arroz Con Leche Y Champurrado",
+    "category": "BAKERY",
+    "src": "/images/menu/bakery-pan-mexicano-arroz-con-leche-y-champurrado.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "beverages-aguas",
+    "title": "Aguas",
+    "category": "BEVERAGES",
+    "src": "/images/menu/beverages-aguas.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "beverages-cappuccinoconcajeta",
+    "title": "Cappuccinoconcajeta",
+    "category": "BEVERAGES",
+    "src": "/images/menu/beverages-cappuccinoconcajeta.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "beverages-cappuccinodefresa",
+    "title": "Cappuccinodefresa",
+    "category": "BEVERAGES",
+    "src": "/images/menu/beverages-cappuccinodefresa.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "beverages-miami-vice",
+    "title": "Miami Vice",
+    "category": "BEVERAGES",
+    "src": "/images/menu/beverages-miami-vice.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "beverages-pinacolada",
+    "title": "Pinacolada",
+    "category": "BEVERAGES",
+    "src": "/images/menu/beverages-pinacolada.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "beverages-sangria",
+    "title": "Sangria",
+    "category": "BEVERAGES",
+    "src": "/images/menu/beverages-sangria.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "beverages-sodas-mexicanas",
+    "title": "Sodas Mexicanas",
+    "category": "BEVERAGES",
+    "src": "/images/menu/beverages-sodas-mexicanas.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "burritos-burrito",
+    "title": "Burrito",
+    "category": "BURRITOS",
+    "src": "/images/menu/burritos-burrito.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "desayunos-huevos-a-la-mexicana",
+    "title": "Huevos A La Mexicana",
+    "category": "DESAYUNOS",
+    "src": "/images/menu/desayunos-huevos-a-la-mexicana.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "desayunos-huevos-con-chorizo",
+    "title": "Huevos Con Chorizo",
+    "category": "DESAYUNOS",
+    "src": "/images/menu/desayunos-huevos-con-chorizo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "desayunos-huevos-con-nopales",
+    "title": "Huevos Con Nopales",
+    "category": "DESAYUNOS",
+    "src": "/images/menu/desayunos-huevos-con-nopales.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "desserts-chocoflan",
+    "title": "Chocoflan",
+    "category": "DESSERTS",
+    "src": "/images/menu/desserts-chocoflan.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "desserts-flan",
+    "title": "Flan",
+    "category": "DESSERTS",
+    "src": "/images/menu/desserts-flan.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "desserts-fresas-con-crema",
+    "title": "Fresas Con Crema",
+    "category": "DESSERTS",
+    "src": "/images/menu/desserts-fresas-con-crema.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "desserts-gelatina",
+    "title": "Gelatina",
+    "category": "DESSERTS",
+    "src": "/images/menu/desserts-gelatina.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "desserts-pastel",
+    "title": "Pastel",
+    "category": "DESSERTS",
+    "src": "/images/menu/desserts-pastel.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "ensaladas-ensalada-de-nopales",
+    "title": "Ensalada De Nopales",
+    "category": "ENSALADAS",
+    "src": "/images/menu/ensaladas-ensalada-de-nopales.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "ensaladas-ensalada-de-pollo",
+    "title": "Ensalada De Pollo",
+    "category": "ENSALADAS",
+    "src": "/images/menu/ensaladas-ensalada-de-pollo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "huaraches-huarache-de-carne-enchilada",
+    "title": "Huarache De Carne Enchilada",
+    "category": "HUARACHES",
+    "src": "/images/menu/huaraches-huarache-de-carne-enchilada.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "huaraches-huarache-de-cecina",
+    "title": "Huarache De Cecina",
+    "category": "HUARACHES",
+    "src": "/images/menu/huaraches-huarache-de-cecina.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "huaraches-huarache-sencillo",
+    "title": "Huarache Sencillo",
+    "category": "HUARACHES",
+    "src": "/images/menu/huaraches-huarache-sencillo.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "kids-menu-alitas-de-pollo",
+    "title": "Alitas De Pollo",
+    "category": "KIDS MENU",
+    "src": "/images/menu/kids-menu-alitas-de-pollo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "kids-menu-mini-quesadillas-de-queso",
+    "title": "Mini Quesadillas De Queso",
+    "category": "KIDS MENU",
+    "src": "/images/menu/kids-menu-mini-quesadillas-de-queso.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "kids-menu-mini-sopez-de-bistec",
+    "title": "Mini Sopes De Bistec",
+    "category": "KIDS MENU",
+    "src": "/images/menu/kids-menu-mini-sopez-de-bistec.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "kids-menu-mozzarella-sticks",
+    "title": "Mozzarella Sticks",
+    "category": "KIDS MENU",
+    "src": "/images/menu/kids-menu-mozzarella-sticks.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "picaditas-picaditas-al-pastor",
+    "title": "Picaditas Al Pastor",
+    "category": "PICADITAS",
+    "src": "/images/menu/picaditas-picaditas-al-pastor.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "picaditas-picaditas-sencillas",
+    "title": "Picaditas Sencillas",
+    "category": "PICADITAS",
+    "src": "/images/menu/picaditas-picaditas-sencillas.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-alambre",
+    "title": "Alambre",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-alambre.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-bistec-a-la-mexicana",
+    "title": "Bistec A La Mexicana",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-bistec-a-la-mexicana.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "platillos-bistec-con-nopales-y-rajas",
+    "title": "Bistec Con Nopales Y Rajas",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-bistec-con-nopales-y-rajas.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "platillos-bistec-encebollado",
+    "title": "Bistec Encebollado",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-bistec-encebollado.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-cecina-asada",
+    "title": "Cecina Asada",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-cecina-asada.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-chilaquiles-de-pollo",
+    "title": "Chilaquiles De Pollo",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-chilaquiles-de-pollo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-chuleta-con-guacamole",
+    "title": "Chuleta Con Guacamole",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-chuleta-con-guacamole.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-churrasco",
+    "title": "Churrasco",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-churrasco.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-enchiladas-de-mole",
+    "title": "Enchiladas De Mole",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-enchiladas-de-mole.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-enchiladas-suizas",
+    "title": "Enchiladas Suizas",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-enchiladas-suizas.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-enchiladas-verdes-de-pollo",
+    "title": "Enchiladas Verdes De Pollo",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-enchiladas-verdes-de-pollo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-espaguetti-con-camarones",
+    "title": "Espaguetti Con Camarones",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-espaguetti-con-camarones.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "platillos-fajita-mixta",
+    "title": "Fajita Mixta",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-fajita-mixta.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-milanesa-de-pollo",
+    "title": "Milanesa De Pollo",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-milanesa-de-pollo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-molcajete-mixto",
+    "title": "Molcajete Mixto",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-molcajete-mixto.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "platillos-parrillada-mixta",
+    "title": "Parrillada Mixta",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-parrillada-mixta.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "platillos-pechuga-asada",
+    "title": "Pechuga Asada",
+    "category": "PLATILLOS",
+    "src": "/images/menu/platillos-pechuga-asada.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "quesadillas-quesadilla-de-huitlacoche",
+    "title": "Quesadilla De Huitlacoche",
+    "category": "QUESADILLAS",
+    "src": "/images/menu/quesadillas-quesadilla-de-huitlacoche.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "quesadillas-quesadilla-de-pollo",
+    "title": "Quesadilla De Pollo",
+    "category": "QUESADILLAS",
+    "src": "/images/menu/quesadillas-quesadilla-de-pollo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "quesadillas-quesadillas-de-chorizo-o-longaniza",
+    "title": "Quesadillas De Chorizo O Longaniza",
+    "category": "QUESADILLAS",
+    "src": "/images/menu/quesadillas-quesadillas-de-chorizo-o-longaniza.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "seafood-camarones-a-la-diabla",
+    "title": "Camarones A La Diabla",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-camarones-a-la-diabla.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "seafood-camarones-al-ajillo",
+    "title": "Camarones Al Ajillo",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-camarones-al-ajillo.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "seafood-camarones-empanizados",
+    "title": "Camarones Empanizados",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-camarones-empanizados.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "seafood-coctel-de-camarones",
+    "title": "Coctel De Camarones",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-coctel-de-camarones.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "seafood-mojara",
+    "title": "Mojara",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-mojara.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "seafood-pargo-frito",
+    "title": "Pargo Frito",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-pargo-frito.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "seafood-pescado-empanizado",
+    "title": "Pescado Empanizado",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-pescado-empanizado.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "seafood-salmon-a-la-parrilla",
+    "title": "Salmon A La Parrilla",
+    "category": "SEAFOOD",
+    "src": "/images/menu/seafood-salmon-a-la-parrilla.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "sides-papas-fritas",
+    "title": "Papas Fritas",
+    "category": "SIDES",
+    "src": "/images/menu/sides-papas-fritas.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "sopas-caldo-de-mariscos",
+    "title": "Caldo De Mariscos",
+    "category": "SOPAS",
+    "src": "/images/menu/sopas-caldo-de-mariscos.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "sopas-consome",
+    "title": "Consome",
+    "category": "SOPAS",
+    "src": "/images/menu/sopas-consome.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "sopas-pancita",
+    "title": "Pancita",
+    "category": "SOPAS",
+    "src": "/images/menu/sopas-pancita.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "sopas-pozole",
+    "title": "Pozole",
+    "category": "SOPAS",
+    "src": "/images/menu/sopas-pozole.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "sopes-sopez-de-bistec",
+    "title": "Sopes De Bistec",
+    "category": "SOPES",
+    "src": "/images/menu/sopes-sopez-de-bistec.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "sopes-sopez-de-cecina",
+    "title": "Sopes De Cecina",
+    "category": "SOPES",
+    "src": "/images/menu/sopes-sopez-de-cecina.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tacos-tacos-de-lengua",
+    "title": "Tacos De Lengua",
+    "category": "TACOS",
+    "src": "/images/menu/tacos-tacos-de-lengua.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tacos-tacos-de-suadero",
+    "title": "Tacos De Suadero",
+    "category": "TACOS",
+    "src": "/images/menu/tacos-tacos-de-suadero.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tacos-tacos-dorados-de-queso",
+    "title": "Tacos Dorados De Queso",
+    "category": "TACOS",
+    "src": "/images/menu/tacos-tacos-dorados-de-queso.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "tacos-tacos-rancheros-de-bistec",
+    "title": "Tacos Rancheros De Bistec",
+    "category": "TACOS",
+    "src": "/images/menu/tacos-tacos-rancheros-de-bistec.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tamales-tamales-champurrado-y-arroz-con-leche-2",
+    "title": "Tamales - Champurrado Y Arroz Con Leche 2",
+    "category": "TAMALES",
+    "src": "/images/menu/tamales-tamales-champurrado-y-arroz-con-leche-2.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tamales-tamales-champurrado-y-arroz-con-leche",
+    "title": "Tamales - Champurrado Y Arroz Con Leche",
+    "category": "TAMALES",
+    "src": "/images/menu/tamales-tamales-champurrado-y-arroz-con-leche.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tlacoyos-tlacoyos-de-cecina",
+    "title": "Tlacoyos De Cecina",
+    "category": "TLACOYOS",
+    "src": "/images/menu/tlacoyos-tlacoyos-de-cecina.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "tlacoyos-tlacoyos-de-pollo",
+    "title": "Tlacoyos De Pollo",
+    "category": "TLACOYOS",
+    "src": "/images/menu/tlacoyos-tlacoyos-de-pollo.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tlacoyos-tlacoyos-sencillos",
+    "title": "Tlacoyos Sencillos",
+    "category": "TLACOYOS",
+    "src": "/images/menu/tlacoyos-tlacoyos-sencillos.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tortas-torta-de-milanesa-de-res",
+    "title": "Torta De Milanesa De Res",
+    "category": "TORTAS",
+    "src": "/images/menu/tortas-torta-de-milanesa-de-res.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "tortas-torta-milanbesa-de-pollo",
+    "title": "Torta Milanesa De Pollo",
+    "category": "TORTAS",
+    "src": "/images/menu/tortas-torta-milanbesa-de-pollo.webp",
+    "width": 1800,
+    "height": 1200
+  },
+  {
+    "id": "tostadas-tostadas",
+    "title": "Tostadas",
+    "category": "TOSTADAS",
+    "src": "/images/menu/tostadas-tostadas.webp",
+    "width": 768,
+    "height": 508
+  },
+  {
+    "id": "weekends-barbacoa",
+    "title": "Barbacoa",
+    "category": "WEEKENDS",
+    "src": "/images/menu/weekends-barbacoa.webp",
+    "width": 768,
+    "height": 508
+  }
+]
